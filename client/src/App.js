@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Navbar from './components/Navbar'
 import Players from "./components/Players"
 
 class App extends React.Component {
@@ -21,6 +22,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <Navbar />
         {this.state.players.map(player => {
           return <Players key={player.id} player={player} />
         })}
