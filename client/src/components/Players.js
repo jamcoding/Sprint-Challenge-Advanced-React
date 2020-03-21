@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Players(props) {
-    console.log('props', props);
+    // console.log('props', props);
 
     return (
         <div class="card">

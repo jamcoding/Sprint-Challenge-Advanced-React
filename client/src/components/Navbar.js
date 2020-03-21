@@ -9,7 +9,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav class="navbar">
+        <nav className="navbar">
             <div className="toggle-mode">
                 <button 
                     onClick={toggleColor}
